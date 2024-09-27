@@ -54,12 +54,16 @@ Bu layihəyə töhfə verməkdən çəkinməyin! Fork edib pull request göndər
 
 ## Serveri işə salın:
 
-````bash
+```bash
 python app.py
 
 Brauzerinizdə bu ünvana gedərək tətbiqi işlədin:
-```bash
+
 http://127.0.0.1:5000
 
 
-````
+```
+
+## Layihənin Görünüşü
+
+![Kvadrat Tənlik Həll Edici](./image/Screenshot%202024-09-27%20at%208.32.43 PM.png)
