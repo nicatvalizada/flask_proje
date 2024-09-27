@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesablama Botu</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kvadrat tənlik həll edici :</h1>
+      <form action="/hesablama" method="POST">
+        <div class="form-group">
+          <label for="a">a:</label>
+          <input type="number" name="a" step="any" required />
+        </div>
+        <div class="form-group">
+          <label for="b">b:</label>
+          <input type="number" name="b" step="any" required />
+        </div>
+        <div class="form-group">
+          <label for="c">c:</label>
+          <input type="number" name="c" step="any" required />
+        </div>
+        <button type="submit">Hesabla</button>
+        <button type="reset" class="reset">Sifirla</button>
+      </form>
+      {% if result %}
+      <div class="result">
+        <h2>Nəticə:</h2>
+        <p>{{ result }}</p>
+      </div>
+      {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+  </body>
+</html>
