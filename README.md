@@ -1,6 +1,5 @@
 # Preparing the README.md content as described
 
-readme_content = """
 
 # Kvadrat Tənlik Həll Edici
 
@@ -58,7 +57,7 @@ Bu layihəyə töhfə verməkdən çəkinməyin! Fork edib pull request göndər
 python app.py
 
 Brauzerinizdə bu ünvana gedərək tətbiqi işlədin:
-```bash
+
 http://127.0.0.1:5000
 
 
