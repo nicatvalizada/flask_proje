@@ -1,5 +1,3 @@
-# Preparing the README.md content as described
-
 
 # Kvadrat Tənlik Həll Edici
 
