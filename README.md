@@ -42,6 +42,7 @@ Proqram, istifadəçinin daxil etdiyi `a`, `b`, `c` dəyərlərinə əsaslanaraq
 ## Töhfələr
 
 Bu layihəyə töhfə verməkdən çəkinməyin! Fork edib pull request göndərə bilərsiniz.
+Elave olaraq layiheni ferqli riyazi modellerde(Riyazi düsturlar) sınaya bilersiz.
 
 ## İstifadə Olunan Kitabxanalar
 
